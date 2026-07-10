@@ -83,4 +83,20 @@ dependencies {
 
     implementation("androidx.hilt:hilt-navigation-compose:1.3.0")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.3")
+
+    // JUnit
+    testImplementation("junit:junit:4.13.2")
+
+    testImplementation("io.mockk:mockk:1.14.11")
+
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
+    // Mockito
+    testImplementation("org.mockito:mockito-core:5.18.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
+
+    // Coroutines Test
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
+
+    // Flow Testing
+    testImplementation("app.cash.turbine:turbine:1.2.1")
 }
